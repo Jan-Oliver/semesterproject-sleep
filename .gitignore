@@ -162,16 +162,16 @@ cython_debug/
 #.idea/
 
 # Remove all .cvs files besides the ones I added myself. The rest can be downloaded
-**/.csv
+**/*.csv
 !datasets/nsrr/shhs/datasets/shhs1-dataset-dictionary-0.20.0.csv
 !datasets/nsrr/shhs/datasets/shhs-cvd-summary-dataset-dictionary-0.20.0.csv
 
 # Remove all .md files that are part of the downloaded dataset except the main README.md of this repo 
-**/.md
+**/*.md
 !READMDE.md
 
-**/.pdf
-**/.edf
-**/.npy
-
+**/*.pdf
+**/*.npy
+**/*.edf
+**/*.xml
 

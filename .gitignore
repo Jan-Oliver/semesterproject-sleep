@@ -161,17 +161,16 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# Remove all .cvs files besides the ones I added myself. The rest can be downloaded
-**/*.csv
-!datasets/nsrr/shhs/datasets/shhs1-dataset-dictionary-0.20.0.csv
-!datasets/nsrr/shhs/datasets/shhs-cvd-summary-dataset-dictionary-0.20.0.csv
+# Ignore everything in the datasets folder
+datasets/**
 
-# Remove all .md files that are part of the downloaded dataset except the main README.md of this repo 
-**/*.md
-!READMDE.md
+# But don't ignore the specific folder we want to keep
+!datasets/nsrr/
+!datasets/nsrr/shhs/
+!datasets/nsrr/shhs/datasets-preprocessed/
+!datasets/nsrr/shhs/datasets-preprocessed/*
 
-**/*.pdf
-**/*.npy
-**/*.edf
-**/*.xml
+.Trash-1000/*
+.sparkmagic/*
+.virtual_documents/*
 

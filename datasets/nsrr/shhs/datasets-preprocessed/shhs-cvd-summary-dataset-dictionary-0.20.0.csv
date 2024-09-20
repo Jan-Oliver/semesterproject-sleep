@@ -1,0 +1,43 @@
+,column_id,display_name,description
+0,nsrrid,NSRR Subject ID,This subject identifier was created by the National Sleep Research Resource (NSRR) team to more easily match with file downloads. Use 'pptid' to link with Biologic Specimen and Data Repository Information Coordinating Center (BioLINCC) and cohort-specific data.
+1,pptid,New SHHS participant ID assigned by BioLINCC,"This participant ID matches what is present in Biologic Specimen and Data Repository Information Coordinating Center (BioLINCC). From BioLINCC, this column may be called 'npptid'."
+2,vital,Vital status at last contact,"Deaths from any cause were identified and confirmed for the cohort using multiple concurrent approaches including follow-up interviews, written annual questionnaires or telephone contacts with study participants or next-of-kin, surveillance of local hospital records and community obituaries, and linkage with the Social Security Administration Death Master File. (For more information, see [Punjabi et al. 2009 (PubMed ID: 19688045)](https://www.ncbi.nlm.nih.gov/pubmed/19688045))"
+3,prev_mi,Number of myocardial infarctions (MIs) Prior to Baseline,Myocardial infarction (MI) prior to baseline Polysomnography (PSG) (as recorded in parent studies datasets)
+4,prev_mip,Number of Procedures Related to Heart Attack Prior to Baseline,Myocardial infarction (MI)/procedure prior to baseline Polysomnography (PSG) (as recorded in parent studies datasets)
+5,prev_stk,Number of Strokes Prior to Baseline,Stroke prior to baseline Polysomnography (PSG) (as recorded in parent studies datasets)
+6,mi,Number of myocardial infarctions (MIs) Since Baseline,Myocardial infarction (MI) since baseline Polysomnogram (PSG) (as recorded in parent studies datasets)
+7,mip,Number of Procedures Related to Heart Attack Since Baseline,Myocardial infarction (MI) procedure since baseline Polysomnogram (PSG)  (as recorded in parent studies datasets)
+8,mi_fatal,Fatal Heart Attack Since Baseline?,Fatal myocardial infarction (MI) since baseline Polysomnogram (PSG)  (as recorded in parent studies datasets)
+9,stroke,Number of Strokes Since Baseline,Stroke since baseline Polysomnogram (PSG) (as recorded in parent studies datasets)
+10,stk_fatal,Fatal Stroke Since Baseline?,Fatal stroke since baseline Polysomnogram (PSG) (as recorded in parent studies datasets)
+11,chd_death,Fatal Coronary Heart Disease (CHD) Since Baseline?,Coronary Heart Disease (CHD) death (as recorded in parent studies datasets)
+12,cvd_death,Fatal Cardiovascular Disease (CVD) Since Baseline?,Cardiovascular Disease (CVD) death (as recorded in parent studies datasets)
+13,angina,Number of Angina Episodes Since Baseline,Angina episodes since baseline Polysomnogram (PSG) (as recorded in parent studies datasets)
+14,revasc_proc,Number of Revascularization Procedures Since Baseline,Revascularization procedure since baseline Polysomnogram (PSG) (as recorded in parent studies datasets)
+15,ptca,Number of Percutaneous transluminal coronary angioplasties (PTCAs) Since Baseline,Percutaneous transluminal coronary angioplasty (PTCA) since baseline Polysomnogram (PSG) (as recorded in parent studies datasets)
+16,cabg,Number of coronary artery bypass graft surgeries (CABGs) Since Baseline,coronary artery bypass graft surgery (CABG) since baseline Polysomnogram (PSG) (as recorded in parent studies datasets)
+17,chf,Number of Congestive Heart Failures (CHFs) Since to Baseline,Congestive Heart Failure (CHF) since baseline Polysomnogram (PSG) (as recorded in parent studies datasets)
+18,prev_chf,Number of Congestive Heart Failure (CHF) episodes Prior to Baseline,Congestive Heart Failure (CHF) episodes prior to baseline Polysomnography (PSG) (as recorded in parent studies datasets)
+19,any_chd,Any Coronary Heart Disease (CHD) Since Baseline?,Any Coronary Heart Disease (CHD) since baseline Polysomnogram (PSG) (as recorded in parent studies datasets)
+20,any_cvd,Any Cardiovascular Disease (CVD) Since Baseline?,Any Cardiovascular Disease (CVD) since baseline Polysomnogram (PSG) (as recorded in parent studies datasets)
+21,prev_revpro,Number of Revascularization Procedures Prior to Baseline,Revascularization procedure prior to baseline Polysomnography (PSG) (as recorded in parent studies datasets)
+22,mi_death,Death from myocardial infarct (MI) since Baseline?,
+23,prev_ang,Number of Angina Episodes Prior to Baseline,Angina episodes prior to baseline Polysomnography (PSG) (as recorded in parent studies datasets)
+24,censdate,Days to Most Recent Contact or Death Since Baseline,Time since Sleep Heart Health Study Visit One (SHHS 1) Sleep Study to date of last contact/death
+25,mi_date,Days to First myocardial infarction (MI) Since Baseline,Time since Sleep Heart Health Study Visit One (SHHS 1) Sleep Study to date of first myocardial infarction (MI)
+26,mip_date,Days to First myocardial infarction (MI) Procedure Since Baseline,Time since Sleep Heart Health Study Visit One (SHHS 1) Sleep Study to date of first myocardial infarction (MI) procedure
+27,stk_date,Days to First Stroke Since Baseline,Time since Sleep Heart Health Study Visit One (SHHS 1) Sleep Study to date of first stroke
+28,chd_dthdt,Days to Fatal Coronary Heart Disease (CHD) Since Baseline,Time since Sleep Heart Health Study Visit One (SHHS 1) Sleep Study to date of Coronary Heart Disease (CHD) death
+29,cvd_dthdt,Days to Fatal Cardiovascular Disease (CVD) Since Baseline,Time since Sleep Heart Health Study Visit One (SHHS 1) Sleep Study to date of Cardiovascular Disease (CVD) death
+30,ang_date,Days to First Angina Episodes Since Baseline,Time since Sleep Heart Health Study Visit One (SHHS 1) Sleep Study to date of first angina pectoris episode
+31,revpro_date,Days to First Revascularization Procedure Since Baseline,Time since Sleep Heart Health Study Visit One (SHHS 1) Sleep Study to date of first revascularization procedure
+32,ptca_date,Days to First Percutaneous transluminal coronary angioplasty (PTCA) Since Baseline,Time since Sleep Heart Health Study Visit One (SHHS 1) Sleep Study to date of first Percutaneous transluminal coronary angioplasty (PTCA)
+33,cabg_date,Days to First coronary artery bypass graft surgery (CABG) Since Baseline,Time since Sleep Heart Health Study Visit One (SHHS 1) Sleep Study to date of first coronary artery bypass graft surgery (CABG)
+34,chf_date,Days to First Congestive Heart Failure (CHF) Since Baseline,Time since Sleep Heart Health Study Visit One (SHHS 1) Sleep Study to date of first Congestive Heart Failure (CHF)
+35,pptidr,Randomized ID: Incorporates parent study random ID,This participant ID matches what is present in Biologic Specimen and Data Repository Information Coordinating Center (BioLINCC).
+36,visitnumber,Sleep Heart Health Study (SHHS) Visit Number,
+37,afibprevalent,Prevalent Atrial Fibrillation (AF) at SHHS Visit 1,Variable created as part of the analysis for [Tung et al. 2017 (PubMed ID: 28668820)](https://www.ncbi.nlm.nih.gov/pubmed/28668820). Prevalent AF was defined by any of the following: a positive response to the question 'Has a doctor ever told you that you have or had atrial fibrillation'; AF identified on resting 12-lead ECG at the baseline SHHS exam; or if the parent study identified AF documented in the medical record before the SHHS baseline exam.
+38,afibincident,Incident Atrial Fibrillation (AF) after SHHS Visit 1,"Variable created as part of the analysis for [Tung et al. 2017 (PubMed ID: 28668820)](https://www.ncbi.nlm.nih.gov/pubmed/28668820). Incident AF was considered present if AF was identified on a 12-lead ECG obtained at the second SHHS exam or was adjudicated by the parent cohorts at any time between the baseline PSG and the final follow-up date for AF ascertainment of June 30, 2006."
+39,gender,Gender of the participant,Gender as reported by Parent Cohort
+40,race,Race of the participant,Race is presented as three (3) categories based on [suggested Biologic Specimen and Data Repository Information Coordinating Center (BioLINCC) de-identification procedures](http://www.nhlbi.nih.gov/research/funding/human-subjects/set-preparation-guidelines).
+41,age_s1,Age at Sleep Heart Health Study Visit One (SHHS1),"Age at time of study in years, based on start date of Sleep Heart Health Study Visit One (SHHS1) Polysomnography (PSG) recording. Values equal to 90 indicate an age of 90 or greater."

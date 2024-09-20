@@ -3,6 +3,52 @@ import matplotlib.pyplot as plt
 from mne.stats.parametric import _parametric_ci
 from KC_algorithm.utils import EpochData
 
+def plot_mean_kc_with_std(epoch_data, Fs, post_peak, pre_peak, title="Mean K-Complex Signal"):
+    """
+    Plot the mean K-complex signal with 1 and 2 standard deviation intervals.
+
+    Parameters:
+    - epoch_data (ndarray): The epoch data containing the EEG signal. Shape should be (n_epochs, n_times).
+    - Fs (float): The sampling frequency of the EEG data.
+    - post_peak (float): Duration in seconds to include after the KC peak.
+    - pre_peak (float): Duration in seconds to include before the KC peak.
+    - title (str): The title of the plot.
+
+    Returns:
+    - None
+    """
+    total_peak = post_peak + pre_peak
+    half_peak = total_peak / 2.0
+
+    # Convert to microvolts
+    epoch_data_uv = epoch_data * 10**6
+
+    # Calculate mean and standard deviation
+    mean_kc = np.mean(epoch_data_uv, axis=0)
+    std_kc = np.std(epoch_data_uv, axis=0)
+
+    times = np.arange(0, total_peak, total_peak / len(mean_kc)) - half_peak
+
+    fig, ax = plt.subplots(figsize=(12, 6))
+
+    # Plot mean KC
+    ax.plot(times, mean_kc, color='blue', label='Mean KC')
+
+    # Plot 1 std interval
+    ax.fill_between(times, mean_kc - std_kc, mean_kc + std_kc, color='blue', alpha=0.3, label='1 Std Dev')
+
+    # Plot 2 std interval
+    ax.fill_between(times, mean_kc - 2*std_kc, mean_kc + 2*std_kc, color='blue', alpha=0.1, label='2 Std Dev')
+
+    ax.set_xlabel('Time (s)')
+    ax.set_ylabel('Amplitude (µV)')
+    ax.set_title(title)
+    ax.legend()
+    ax.grid(True)
+
+    plt.tight_layout()
+    plt.show()
+    
 def KC_from_probas_epoch_data(epoch_data, 
                               onsets,
                               probas,

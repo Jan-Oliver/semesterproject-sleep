@@ -1,4 +1,4 @@
-# Probabilistic classification of K-complexes
+# Original README of Repo (Not updated) - Probabilistic classification of K-complexes
 
 K-complexes are prominent features of sleep electroencephalography and could be a useful bio-marker of a wide range of clinical conditions. However, manual scoring of K-complexes is impractical, time-consuming and thus costly and currently not well-standardized. This repositery contains our K-complex detection algorithm - with its weights - published in SLEEP. The algorithm attributes a given waveform a probability (from 0 to 100%) of being a K-complex, thus making the scoring intuitive.
 
